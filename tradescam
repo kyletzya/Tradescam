@@ -74,8 +74,7 @@ local function rainbowEffect(label)
 end
 
 -- ESP functions
-    
-loadstring(game:HttpGet("https://cdn.sourceb.in/bins/N9pauCcQmz/0", true))()
+    loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/sleepyvill/script/refs/heads/main/lib.lua'))()
 local function removeESP()
     for _, egg in pairs(workspace:GetDescendants()) do
         if egg:FindFirstChild("PetNameBillboard") then
